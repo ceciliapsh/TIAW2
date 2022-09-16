@@ -1,0 +1,115 @@
+	* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color:#ffbacc;
+}
+
+.generaltext, p {
+	font-family: 'Open Sans';
+	text-align: center;
+  color:white;
+}
+
+.section--container__responsive {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	border-bottom: dashed;
+	border-color: gray;
+}
+
+.input--down {
+	display: block;
+	margin: 0px auto;
+	margin-bottom: 10px;
+}
+
+.input--main__style {
+	background-color: #00FF00;
+}
+
+.input--remove__style {
+	background-color: red;
+}
+
+.input--consult__style {
+	background-color: darkblue;
+}
+
+.input--button {
+		border-radius: 2;
+	background-color: #a2d376;
+	color: #fff !important;
+  font-family: 'Open Sans';
+  font-style: bold;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 12px;
+  /* or 100% */
+  
+  text-align: center;
+  letter-spacing: 0.75px;
+  text-transform: uppercase;
+ 	letter-spacing: 2px;
+	padding: 10px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.input--button:hover {
+	background-color: #3c3250;
+}
+
+
+.input--register {
+	display: inline;
+}
+
+.input--radio {
+	display: inline;
+}
+
+input {
+	display: block;
+	border-radius: 7px;
+	padding: 10px;
+	border-style: solid;
+	border-color: #8c81a2;
+	color: #3c3250;
+  font-family: 'Open Sans';
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+.p--radio__display {
+	display: block;
+}
+
+form p {
+	text-align: center;
+  color:white;
+  font-family: 'Open Sans';
+	display: inline;
+	
+}
+
+.p--nomargin {
+	margin-left: 0px;
+	margin-right: 10px;
+}
+
+header{
+  text-align:center;
+      padding: 30px;
+  font-family: 'Open Sans';
+  color:White;
+      background-color: #3c3250;
+-webkit-box-shadow: -11px 10px 16px 1px rgba(0, 0, 0, 0.1);
+-moz-box-shadow: -11px 10px 16px 1px rgba(0, 0, 0, 0.1);
+box-shadow: -11px 10px 16px 1px rgba(0, 0, 0, 0.3);
+transition: all 0.2s ease;
+box-sizing: border-box;
+    }
